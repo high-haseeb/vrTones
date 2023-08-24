@@ -7,6 +7,7 @@ class handDetector:
         self.hands = self.mpHands.Hands()
         self.mpDraw = mp.solutions.drawing_utils
 
+    # returns landmarks coords list given the img
     def get_landmarks(self, img, draw=True, connect=False):
         landmark_list = {}
         height, width = 480, 640
