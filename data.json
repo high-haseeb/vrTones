@@ -1,0 +1,38 @@
+{
+	"piano": 
+    {
+        "total_channels": 10,
+        "mode": "key",
+        "file_type": "mp3", 
+        "key_map_Right":[
+            1, 2, 3, 4, 5
+        ],
+        "key_map_Left":[
+            6, 7, 8, 9, 10
+        ]
+    },
+	"tabla": 
+    { 
+        "total_channels": 4, 
+        "mode": "tap", 
+        "file_type": "wav",
+        "key_map_Right":[
+            1, 2, 3
+        ],
+        "key_map_Left":[
+            4, 5, 6
+        ]
+    },
+	"darbuka":
+    { 
+        "total_channels": 4, 
+        "mode": "tap", 
+        "file_type": "wav",
+        "key_map_Right":[
+            1
+        ],
+        "key_map_Left":[
+            2
+        ]
+    }
+}
