@@ -217,32 +217,32 @@ master_running = True
 
 mixer.init()
 mixer.music.load(
-    "/home/haseeb/Downloads/VR_tones/assets/background_music/still_Dre.mp3"
+    "./assets/background_music/still_Dre.mp3"
 )
 mixer.music.play()
 
 main_menu = Canvas(root, border=0, height=h, width=w)
 
 logo_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/logo.png", format="RGBA"
+    file="./assets/icons/logo.png", format="RGBA"
 )
 close_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/close.png", format="RGBA"
+    file="./assets/icons/close.png", format="RGBA"
 )
 setting_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/setting.png", format="RGBA"
+    file="./assets/icons/setting.png", format="RGBA"
 )
 prev_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/prev.png", format="RGBA"
+    file="./assets/icons/prev.png", format="RGBA"
 )
 next_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/next.png", format="RGBA"
+    file="./assets/icons/next.png", format="RGBA"
 )
 back_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/back.png", format="RGBA"
+    file="./assets/icons/back.png", format="RGBA"
 )
 tap_img = ImageTk.PhotoImage(
-    file="/home/haseeb/Downloads/VR_tones/assets/icons/back.png", format="RGBA"
+    file="./assets/icons/back.png", format="RGBA"
 )
 
 file = open("data.json")
